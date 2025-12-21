@@ -27,8 +27,6 @@ word = {
         "igbo": "ezinụlọ",
         "italian": "famiglia"
     },
-
-    # 🔽 15 MORE WORDS
     "water": {
         "idoma": "ami",
         "tiv": "mngu",

@@ -1,0 +1,115 @@
+# English – Igbo Dictionary
+# Programming language: Python
+# Dictionary languages: English and Igbo
+
+dictionary = {
+
+    "education": {
+        "english": "The process of teaching and learning",
+        "igbo": "Usoro ịkụziri na ịmụ ihe"
+    },
+
+    "knowledge": {
+        "english": "Information and skills gained through experience",
+        "igbo": "Ihe ọmụma a nwetara site n’ahụmahụ"
+    },
+
+    "culture": {
+        "english": "The way of life of a group of people",
+        "igbo": "Ụzọ ndụ ndị mmadụ si ebi"
+    },
+
+    "community": {
+        "english": "A group of people living together",
+        "igbo": "Otu ndị mmadụ bi n’otu ebe"
+    },
+
+    "tradition": {
+        "english": "Customs passed down from generation to generation",
+        "igbo": "Omenala ebufere site n’ọgbọ ruo n’ọgbọ"
+    },
+
+    "language": {
+        "english": "A system used for communication",
+        "igbo": "Usoro eji ekwurịta okwu"
+    },
+
+    "environment": {
+        "english": "The surroundings in which people live",
+        "igbo": "Gburugburu ebe mmadụ bi"
+    },
+
+    "development": {
+        "english": "The process of growth or improvement",
+        "igbo": "Usoro mmepe ma ọ bụ ịba ụba"
+    },
+
+    "health": {
+        "english": "The state of being free from illness",
+        "igbo": "Ọnọdụ ahụ ike dị mma"
+    },
+
+    "peace": {
+        "english": "A state of calm and harmony",
+        "igbo": "Ọnọdụ udo na ịdị n’otu"
+    },
+
+    "freedom": {
+        "english": "The power to act without control",
+        "igbo": "Ikike ime ihe n’enweghị mmachi"
+    },
+
+    "responsibility": {
+        "english": "The duty to take care of something",
+        "igbo": "Ọrụ na ibu ibu ọrụ"
+    },
+
+    "justice": {
+        "english": "Fair treatment of people",
+        "igbo": "Ikpe ziri ezi n’etiti mmadụ"
+    },
+
+    "respect": {
+        "english": "A feeling of admiration for someone",
+        "igbo": "Nsọpụrụ e nyere mmadụ"
+    },
+
+    "leadership": {
+        "english": "The act of guiding or directing others",
+        "igbo": "Idu ndú ma ọ bụ ịchịkwa ndị ọzọ"
+    },
+
+    "creativity": {
+        "english": "The ability to create new ideas",
+        "igbo": "Ikike imepụta echiche ọhụrụ"
+    },
+
+    "innovation": {
+        "english": "Introducing new ideas or methods",
+        "igbo": "Itinye echiche ma ọ bụ usoro ọhụrụ"
+    },
+
+    "technology": {
+        "english": "The application of scientific knowledge",
+        "igbo": "Ojiji nke ihe ọmụma sayensị"
+    },
+
+    "communication": {
+        "english": "The exchange of information",
+        "igbo": "Ịkekọrịta ozi n’etiti mmadụ"
+    },
+
+    "cooperation": {
+        "english": "Working together for a common goal",
+        "igbo": "Ịrụkọ ọrụ ọnụ maka otu ebumnuche"
+    }
+}
+
+# User input
+word = input("Enter an English word: ").lower()
+
+if word in dictionary:
+    print("English meaning:", dictionary[word]["english"])
+    print("Igbo meaning:", dictionary[word]["igbo"])
+else:
+    print("Word not found in dictionary.")

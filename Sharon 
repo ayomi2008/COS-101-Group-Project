@@ -1,0 +1,233 @@
+
+    "Bag": {
+        "Yoruba": "Apo",
+        "Igbo": "Akpa",
+        "Hausa": "Jaka",
+        "Edo": "Ekpete",
+        "Efik": "Akpa",
+        "Ibibio": "Akpa",
+        "Ijaw": "Akpa",
+        "Urhobo": "Akpa",
+        "Isoko": "Akpa",
+        "Nupe": "Egba",
+        "Gwari": "Jaka",
+        "Kanuri": "Jakka",
+        "Tiv": "Akpa",
+        "Idoma": "Akpa",
+        "Igala": "Akpa",
+        "Ebira": "Akpa",
+        "Itsekiri": "Apo",
+        "Jukun": "Akpa",
+        "Berom": "Jaka",
+        "Fulfulde": "Saku"
+    },
+
+    "Water": {
+        "Yoruba": "Omi",
+        "Igbo": "Mmiri",
+        "Hausa": "Ruwa",
+        "Edo": "Ami",
+        "Efik": "Mmong",
+        "Ibibio": "Mmong",
+        "Ijaw": "Beni",
+        "Urhobo": "Ame",
+        "Isoko": "Ame",
+        "Nupe": "Eza",
+        "Gwari": "Ruwa",
+        "Kanuri": "Aman",
+        "Tiv": "Mnger",
+        "Idoma": "Ame",
+        "Igala": "Ami",
+        "Ebira": "Ami",
+        "Itsekiri": "Omi",
+        "Jukun": "Ame",
+        "Berom": "Ami",
+        "Fulfulde": "Ndiyam"
+    },
+
+    "Food": {
+        "Yoruba": "Ounjẹ",
+        "Igbo": "Nri",
+        "Hausa": "Abinci",
+        "Edo": "Ewian",
+        "Efik": "Ukpong",
+        "Ibibio": "Ukpong",
+        "Ijaw": "Kini",
+        "Urhobo": "Ukpo",
+        "Isoko": "Ukpo",
+        "Nupe": "Echi",
+        "Gwari": "Abinci",
+        "Kanuri": "Abinci",
+        "Tiv": "Ikyô",
+        "Idoma": "Oje",
+        "Igala": "Oje",
+        "Ebira": "Ukpo",
+        "Itsekiri": "Ounjẹ",
+        "Jukun": "Oje",
+        "Berom": "Ukpo",
+        "Fulfulde": "Nyeeri"
+    },
+
+    "House": {
+        "Yoruba": "Ile",
+        "Igbo": "Ụlọ",
+        "Hausa": "Gida",
+        "Edo": "Uwa",
+        "Efik": "Ufok",
+        "Ibibio": "Ufok",
+        "Ijaw": "Ama",
+        "Urhobo": "Ugbodu",
+        "Isoko": "Ugbodu",
+        "Nupe": "Eyi",
+        "Gwari": "Gida",
+        "Kanuri": "Gida",
+        "Tiv": "Ior",
+        "Idoma": "Eyi",
+        "Igala": "Eyi",
+        "Ebira": "Eyi",
+        "Itsekiri": "Ile",
+        "Jukun": "Eyi",
+        "Berom": "Eyi",
+        "Fulfulde": "Suudu"
+    },
+
+    "Book": {
+        "Yoruba": "Iwe",
+        "Igbo": "Akwụkwọ",
+        "Hausa": "Littafi",
+        "Edo": "Ewe",
+        "Efik": "Uwet",
+        "Ibibio": "Uwet",
+        "Ijaw": "Iwe",
+        "Urhobo": "Iwe",
+        "Isoko": "Iwe",
+        "Nupe": "Takarda",
+        "Gwari": "Littafi",
+        "Kanuri": "Littafi",
+        "Tiv": "Ityough",
+        "Idoma": "Iwe",
+        "Igala": "Iwe",
+        "Ebira": "Iwe",
+        "Itsekiri": "Iwe",
+        "Jukun": "Iwe",
+        "Berom": "Iwe",
+        "Fulfulde": "Defte"
+    },
+
+    "Chair": {
+        "Yoruba": "Aga", "Igbo": "Oche", "Hausa": "Kujera", "Edo": "Agba",
+        "Efik": "Ukot", "Ibibio": "Ukot", "Ijaw": "Agba", "Urhobo": "Agba",
+        "Isoko": "Agba", "Nupe": "Eku", "Gwari": "Kujera", "Kanuri": "Kujera",
+        "Tiv": "Akôr", "Idoma": "Agba", "Igala": "Agba", "Ebira": "Agba",
+        "Itsekiri": "Aga", "Jukun": "Agba", "Berom": "Agba", "Fulfulde": "Daande"
+    },
+
+    "Shoes": {
+        "Yoruba": "Bata", "Igbo": "Akpụkpọ ụkwụ", "Hausa": "Takalmi", "Edo": "Uka",
+        "Efik": "Unam", "Ibibio": "Unam", "Ijaw": "Bata", "Urhobo": "Uka",
+        "Isoko": "Uka", "Nupe": "Kpata", "Gwari": "Takalmi", "Kanuri": "Takalmi",
+        "Tiv": "Akôr", "Idoma": "Uka", "Igala": "Uka", "Ebira": "Uka",
+        "Itsekiri": "Bata", "Jukun": "Uka", "Berom": "Uka", "Fulfulde": "Patal"
+    },
+
+    "Sun": {
+        "Yoruba": "Oorun", "Igbo": "Anyanwụ", "Hausa": "Rana", "Edo": "Uwa",
+        "Efik": "Usung", "Ibibio": "Usung", "Ijaw": "Bara", "Urhobo": "Oghene",
+        "Isoko": "Oghene", "Nupe": "Etsu", "Gwari": "Rana", "Kanuri": "Rana",
+        "Tiv": "Aôndo", "Idoma": "Ojo", "Igala": "Ojo", "Ebira": "Ojo",
+        "Itsekiri": "Oorun", "Jukun": "Ojo", "Berom": "Ojo", "Fulfulde": "Naange"
+    },
+
+    "Moon": {
+        "Yoruba": "Oṣupa", "Igbo": "Ọnwa", "Hausa": "Wata", "Edo": "Osa",
+        "Efik": "Iman", "Ibibio": "Iman", "Ijaw": "Osa", "Urhobo": "Osa",
+        "Isoko": "Osa", "Nupe": "Etsu", "Gwari": "Wata", "Kanuri": "Wata",
+        "Tiv": "Aôndo", "Idoma": "Osa", "Igala": "Osa", "Ebira": "Osa",
+        "Itsekiri": "Oṣupa", "Jukun": "Osa", "Berom": "Osa", "Fulfulde": "Lewru"
+    },
+
+    "Fire": {
+        "Yoruba": "Ina", "Igbo": "Ọkụ", "Hausa": "Wuta", "Edo": "Ina",
+        "Efik": "Unen", "Ibibio": "Unen", "Ijaw": "Unen", "Urhobo": "Ina",
+        "Isoko": "Ina", "Nupe": "Ewu", "Gwari": "Wuta", "Kanuri": "Wuta",
+        "Tiv": "Iwam", "Idoma": "Ina", "Igala": "Ina", "Ebira": "Ina",
+        "Itsekiri": "Ina", "Jukun": "Ina", "Berom": "Ina", "Fulfulde": "Jayngol"
+
+    "Tree": {
+        "Yoruba": "Igi", "Igbo": "Osisi", "Hausa": "Itace", "Edo": "Ugi",
+        "Efik": "Eto", "Ibibio": "Eto", "Ijaw": "Igi", "Urhobo": "Igi",
+        "Isoko": "Igi", "Nupe": "Egi", "Gwari": "Itace", "Kanuri": "Itace",
+        "Tiv": "Ikyese", "Idoma": "Igi", "Igala": "Igi", "Ebira": "Igi",
+        "Itsekiri": "Igi", "Jukun": "Igi", "Berom": "Igi", "Fulfulde": "Lekki"
+    },
+
+    "Road": {
+        "Yoruba": "Ona", "Igbo": "Ụzọ", "Hausa": "Hanya", "Edo": "Uhun",
+        "Efik": "Usung", "Ibibio": "Usung", "Ijaw": "Usung", "Urhobo": "Ona",
+        "Isoko": "Ona", "Nupe": "Eda", "Gwari": "Hanya", "Kanuri": "Hanya",
+        "Tiv": "Hembe", "Idoma": "Ona", "Igala": "Ona", "Ebira": "Ona",
+        "Itsekiri": "Ona", "Jukun": "Ona", "Berom": "Ona", "Fulfulde": "Laawol"
+    },
+
+    "Clothes": {
+        "Yoruba": "Aso", "Igbo": "Uwe", "Hausa": "Tufafi", "Edo": "Uwen",
+        "Efik": "Uwen", "Ibibio": "Uwen", "Ijaw": "Aso", "Urhobo": "Uwen",
+        "Isoko": "Uwen", "Nupe": "Egba", "Gwari": "Tufafi", "Kanuri": "Tufafi",
+        "Tiv": "Anger", "Idoma": "Uwen", "Igala": "Uwen", "Ebira": "Uwen",
+        "Itsekiri": "Aso", "Jukun": "Uwen", "Berom": "Uwen", "Fulfulde": "Banki"
+    },
+
+    "Bed": {
+        "Yoruba": "Ibusun", "Igbo": "Akwa", "Hausa": "Gado", "Edo": "Ukhu",
+        "Efik": "Akwa", "Ibibio": "Akwa", "Ijaw": "Akwa", "Urhobo": "Ukhu",
+        "Isoko": "Ukhu", "Nupe": "Eto", "Gwari": "Gado", "Kanuri": "Gado",
+        "Tiv": "Akwase", "Idoma": "Ukhu", "Igala": "Ukhu", "Ebira": "Ukhu",
+        "Itsekiri": "Ibusun", "Jukun": "Ukhu", "Berom": "Ukhu", "Fulfulde": "Danko"
+    },
+
+    "Market": {
+        "Yoruba": "Oja", "Igbo": "Ahịa", "Hausa": "Kasuwa", "Edo": "Eki",
+        "Efik": "Eki", "Ibibio": "Eki", "Ijaw": "Eki", "Urhobo": "Eki",
+        "Isoko": "Eki", "Nupe": "Eki", "Gwari": "Kasuwa", "Kanuri": "Kasuwa",
+        "Tiv": "Ange", "Idoma": "Eki", "Igala": "Eki", "Ebira": "Eki",
+        "Itsekiri": "Oja", "Jukun": "Eki", "Berom": "Eki", "Fulfulde": "Luumo"
+    },
+
+    "Fish": {
+        "Yoruba": "Eja", "Igbo": "Azụ", "Hausa": "Kifi", "Edo": "Eyan",
+        "Efik": "Edem", "Ibibio": "Edem", "Ijaw": "Eja", "Urhobo": "Eyan",
+        "Isoko": "Eyan", "Nupe": "Eja", "Gwari": "Kifi", "Kanuri": "Kifi",
+        "Tiv": "Inya", "Idoma": "Eyan", "Igala": "Eyan", "Ebira": "Eyan",
+        "Itsekiri": "Eja", "Jukun": "Eyan", "Berom": "Eyan", "Fulfulde": "Liɗɗo"
+    },
+
+    "Dog": {
+        "Yoruba": "Aja", "Igbo": "Nkịta", "Hausa": "Kare", "Edo": "Ekhua",
+        "Efik": "Efiok", "Ibibio": "Efiok", "Ijaw": "Aja", "Urhobo": "Ekhua",
+        "Isoko": "Ekhua", "Nupe": "Gba", "Gwari": "Kare", "Kanuri": "Kare",
+        "Tiv": "Mbua", "Idoma": "Ekhua", "Igala": "Ekhua", "Ebira": "Ekhua",
+        "Itsekiri": "Aja", "Jukun": "Ekhua", "Berom": "Ekhua", "Fulfulde": "Rawndi"
+    },
+
+    "Cat": {
+        "Yoruba": "Ologbo", "Igbo": "Nwamba", "Hausa": "Mage", "Edo": "Ekhua",
+        "Efik": "Efiok", "Ibibio": "Efiok", "Ijaw": "Ologbo", "Urhobo": "Ekhua",
+        "Isoko": "Ekhua", "Nupe": "Kuta", "Gwari": "Mage", "Kanuri": "Mage",
+        "Tiv": "Kase", "Idoma": "Ekhua", "Igala": "Ekhua", "Ebira": "Ekhua",
+        "Itsekiri": "Ologbo", "Jukun": "Ekhua", "Berom": "Ekhua", "Fulfulde": "Pusi"
+    },
+
+    "School": {
+        "Yoruba": "Ile-iwe", "Igbo": "Ụlọakwụkwọ", "Hausa": "Makaranta", "Edo": "Iskul",
+        "Efik": "Iskul", "Ibibio": "Iskul", "Ijaw": "Iskul", "Urhobo": "Iskul",
+        "Isoko": "Iskul", "Nupe": "Iskul", "Gwari": "Makaranta", "Kanuri": "Makaranta",
+        "Tiv": "Sukulu", "Idoma": "Iskul", "Igala": "Iskul", "Ebira": "Iskul",
+        "Itsekiri": "Ile-iwe", "Jukun": "Iskul", "Berom": "Iskul", "Fulfulde": "Janngirde"
+    },
+
+    "Money": {
+        "Yoruba": "Owo", "Igbo": "Ego", "Hausa": "Kudi", "Edo": "Ego",
+        "Efik": "Ego", "Ibibio": "Ego", "Ijaw": "Ego", "Urhobo": "Ego",
+        "Isoko": "Ego", "Nupe": "Ego", "Gwari": "Kudi", "Kanuri": "Kudi",
+        "Tiv": "Iyol", "Idoma": "Ego", "Igala": "Ego", "Ebira": "Ego",
+        "Itsekiri": "Owo", "Jukun": "Ego", "Berom": "Ego", "Fulfulde": "Ceede"

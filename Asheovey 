@@ -1,0 +1,50 @@
+import streamlit as st
+st.set_page_config(
+    page_title="Local Language Translator")
+
+dictionary = {
+    "education": {
+        "english": "The process of teaching and learning",
+        "igbo": "Usoro ịkụziri na ịmụ ihe"
+    },
+    "knowledge": {
+        "english": "Information and skills gained through experience",
+        "igbo": "Ihe ọmụma a nwetara site n’ahụmahụ"
+    },
+    "culture": {
+        "english": "The way of life of a group of people",
+        "igbo": "Ụzọ ndụ ndị mmadụ si ebi"
+    },
+    "community": {
+        "english": "A group of people living together",
+        "igbo": "Otu ndị mmadụ bi n’otu ebe"
+    },
+    "tradition": {
+        "english": "Customs passed down from generation to generation",
+        "igbo": "Omenala ebufere site n’ọgbọ ruo n’ọgbọ"
+    }
+}
+
+st.title("Local Language Translator")
+
+st.sidebar.header("Available Words")
+for w in sorted(dictionary.keys()):
+    st.sidebar.write(f"• {w}")
+
+language = st.selectbox(
+    "Select Language:",
+    ["english", "igbo"]
+)
+
+word_input = st.text_input("Enter an English word:")
+
+if st.button("Translate"):
+    if not word_input:
+        st.warning("Please enter a word.")
+    else:
+        word = word_input.lower().strip()
+
+        if word in dictionary:
+            st.success(f"**{word} → {dictionary[word][language]}**")
+        else:
+            st.error("Word not found. Check the sidebar.")

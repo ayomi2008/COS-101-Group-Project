@@ -1,0 +1,162 @@
+import streamlit as st
+st.word(
+    words_title="Language Translator",
+)
+words = {
+    "water": {
+        "idoma": "ami",
+        "tiv": "mngu",
+        "hausa": "ruwa",
+        "igbo": "mmiri",
+        "italian": "acqua"
+    },
+    "house": {
+        "idoma": "oku",
+        "tiv": "tar",
+        "hausa": "gida",
+        "igbo": "ụlọ",
+        "italian": "casa"
+    },
+    "school": {
+        "idoma": "skuul",
+        "tiv": "skuul",
+        "hausa": "makaranta",
+        "igbo": "akwụkwọ",
+        "italian": "scuola"
+    },
+    "book": {
+        "idoma": "buku",
+        "tiv": "buku",
+        "hausa": "littafi",
+        "igbo": "akwụkwọ",
+        "italian": "libro"
+    },
+    "mother": {
+        "idoma": "ina",
+        "tiv": "mama",
+        "hausa": "uwa",
+        "igbo": "nne",
+        "italian": "madre"
+    },
+    "father": {
+        "idoma": "opa",
+        "tiv": "papa",
+        "hausa": "uba",
+        "igbo": "nna",
+        "italian": "padre"
+    },
+    "child": {
+        "idoma": "ono",
+        "tiv": "wan",
+        "hausa": "yaro",
+        "igbo": "nwa",
+        "italian": "bambino"
+    },
+    "market": {
+        "idoma": "ojogbo",
+        "tiv": "mkase",
+        "hausa": "kasuwa",
+        "igbo": "ahịa",
+        "italian": "mercato"
+    },
+    "eat": {
+        "idoma": "nyam",
+        "tiv": "yam",
+        "hausa": "ci",
+        "igbo": "rie",
+        "italian": "mangiare"
+    },
+    "drink": {
+        "idoma": "mu",
+        "tiv": "nyor",
+        "hausa": "sha",
+        "igbo": "ṅụọ",
+        "italian": "bere"
+    },
+    "go": {
+        "idoma": "lo",
+        "tiv": "ya",
+        "hausa": "je",
+        "igbo": "gaa",
+        "italian": "andare"
+    },
+    "come": {
+        "idoma": "wa",
+        "tiv": "ya",
+        "hausa": "zo",
+        "igbo": "bia",
+        "italian": "venire"
+    },
+    "sleep": {
+        "idoma": "ngun",
+        "tiv": "kpen",
+        "hausa": "yi barci",
+        "igbo": "rahụ",
+        "italian": "dormire"
+    },
+    "work": {
+        "idoma": "kpa",
+        "tiv": "kpa",
+        "hausa": "aiki",
+        "igbo": "ọrụ",
+        "italian": "lavoro"
+    },
+    "food": {
+        "idoma": "nyam",
+        "tiv": "nyam",
+        "hausa": "abinci",
+        "igbo": "nri",
+        "italian": "cibo"
+    },
+    "road": {
+        "idoma": "ogba",
+        "tiv": "or",
+        "hausa": "hanya",
+        "igbo": "ụzọ",
+        "italian": "strada"
+    },
+    "sun": {
+        "idoma": "ale",
+        "tiv": "ter",
+        "hausa": "rana",
+        "igbo": "anyanwụ",
+        "italian": "sole"
+    },
+    "day": {
+        "idoma": "ole",
+        "tiv": "yor",
+        "hausa": "rana",
+        "igbo": "ụbọchị",
+        "italian": "giorno"
+    },
+    "night": {
+        "idoma": "otuku",
+        "tiv": "yol",
+        "hausa": "dare",
+        "igbo": "abalị",
+        "italian": "notte"
+    }
+}
+words.title(" Language Translator")
+
+words.sidebar("Available Words")
+for w in sorted(words.keys()):
+    words.sidebar.write(f"• {w}")
+language = st.word(
+    "Select Language:",
+    ["Idoma", "Tiv", "Hausa", "Igbo", "Italian"]
+)
+language_key = language.lower()
+word_input = words.text_input("Enter an English word:")
+if words.button("Translate"):
+    if not word_input:
+        words.warning("Please enter a word.")
+    else:
+        word = word_input.lower()
+        if word in words:
+            if language_key in words[word]:
+                st.success(f"**{word} → {words[word][language_key]}**")
+            else:
+                words.error("Language not available for this word.")
+        else:
+           words.error("Word not found. Check the sidebar.")

@@ -1,0 +1,22 @@
+translations = {
+    "hello": {"french":"bonjour","spanish":"hola","german":"hallo","yoruba":"ẹ n lẹ","igbo":"ndewo"},
+    "thank you": {"french":"merci","spanish":"gracias","german":"danke","yoruba":"ẹ se","igbo":"daalụ"},
+    "please": {"french":"s'il vous plaît","spanish":"por favor","german":"bitte","yoruba":"jọ̀wọ́","igbo":"biko"},
+    "yes": {"french":"oui","spanish":"sí","german":"ja","yoruba":"bẹ́ẹ̀ni","igbo":"ee"},
+    "no": {"french":"non","spanish":"no","german":"nein","yoruba":"rárá","igbo":"mba"},
+    "good morning": {"french":"bonjour","spanish":"buenos días","german":"guten morgen","yoruba":"ẹ ká àárọ̀","igbo":"ụtụtụ ọma"},
+    "good night": {"french":"bonne nuit","spanish":"buenas noches","german":"gute nacht","yoruba":"ọ́dọ̀ alẹ́","igbo":"ka chi fo"},
+    "sorry": {"french":"désolé","spanish":"lo siento","german":"entschuldigung","yoruba":"má binú","igbo":"ndo"},
+    "love": {"french":"amour","spanish":"amor","german":"liebe","yoruba":"ìfẹ́","igbo":"ịhụnanya"},
+    "friend": {"french":"ami","spanish":"amigo","german":"freund","yoruba":"ọrẹ́","igbo":"enyi"},
+    "family": {"french":"famille","spanish":"familia","german":"familie","yoruba":"ẹbí","igbo":"ezinụlọ"},
+    "water": {"french":"eau","spanish":"agua","german":"wasser","yoruba":"omi","igbo":"mmiri"},
+    "food": {"french":"nourriture","spanish":"comida","german":"essen","yoruba":"ounje","igbo":"nri"},
+    "house": {"french":"maison","spanish":"casa","german":"haus","yoruba":"ilé","igbo":"ụlọ"},
+    "school": {"french":"école","spanish":"escuela","german":"schule","yoruba":"ilé ẹ̀kọ́","igbo":"ụlọ akwụkwọ"},
+    "work": {"french":"travail","spanish":"trabajo","german":"arbeit","yoruba":"iṣẹ́","igbo":"ọrụ"},
+    "money": {"french":"argent","spanish":"dinero","german":"geld","yoruba":"owó","igbo":"ego"},
+    "day": {"french":"jour","spanish":"día","german":"tag","yoruba":"ọjọ́","igbo":"ụbọchị"},
+    "night": {"french":"nuit","spanish":"noche","german":"nacht","yoruba":"alẹ́","igbo":"abali"},
+    "car": {"french":"voiture","spanish":"coche","german":"auto","yoruba":"ọkọ ayọ́kẹ́lẹ́","igbo":"ụgbọ ala"}
+}
